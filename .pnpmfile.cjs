@@ -55,6 +55,22 @@ module.exports = {
             'terser-webpack-plugin',
             'watchpack',
             'webpack-sources',
+            '@webassemblyjs/helper-wasm-bytecode',
+            // '@webassemblyjs/wast-parser',
+            '@webassemblyjs/floating-point-hex-parser',
+            '@webassemblyjs/helper-api-error',
+            // '@webassemblyjs/helper-code-frame',
+            '@webassemblyjs/helper-fsm',
+            '@xtuc/long',
+            '@webassemblyjs/helper-buffer',
+            '@webassemblyjs/helper-wasm-section',
+            '@webassemblyjs/wasm-gen',
+            '@webassemblyjs/wasm-opt',
+            // '@webassemblyjs/wast-printer',
+            '@storybook/node-logger',
+            '@storybook/semver',
+            '@types/node',
+            '@types/pretty-hrtime',
           ].includes(key)
         ) {
           delete pkg.dependencies[key]
