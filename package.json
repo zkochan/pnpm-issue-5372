@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@storybook/core-common": "6.5.10"
+    "webpack": "4.46.0"
   }
 }
