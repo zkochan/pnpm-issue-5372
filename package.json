@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@storybook/core": "6.5.10"
+    "@storybook/core-server": "6.5.10"
   }
 }
